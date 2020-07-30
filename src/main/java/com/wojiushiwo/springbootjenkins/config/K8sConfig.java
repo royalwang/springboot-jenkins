@@ -16,7 +16,7 @@ import java.io.IOException;
 @Configuration
 public class K8sConfig {
 
-    private static String filePath = "src/main/resources/config.txt";
+    private static String filePath = "/root/.kube/config";
 
     @Bean
     public ApiClient apiClient() {
